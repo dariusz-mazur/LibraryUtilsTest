@@ -9,12 +9,19 @@
 import Foundation
 
 
-class VTestStatic
+public class VTestStatic
 {
-    internal static let STATIC_VAR = 534
+    public static let STATIC_VAR = 534
     
+    public init (){
+        print("Class has been initialised")
+    }
     
-    internal class func someFunctionPrint(toPrint : String)
+    public func doSomething(){
+        print("Yeah, it works")
+    }
+    
+    public class func someFunctionPrint(toPrint : String)
     {
         print("TEST: " + toPrint)
     }

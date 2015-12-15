@@ -15,5 +15,3 @@ FOUNDATION_EXPORT double LibraryUtilsTestVersionNumber;
 FOUNDATION_EXPORT const unsigned char LibraryUtilsTestVersionString[];
 
 // In this header, you should import all the public headers of your framework using statements like #import <LibraryUtilsTest/PublicHeader.h>
-
-
